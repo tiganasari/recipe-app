@@ -10,7 +10,7 @@ const Recipe = ({title , url, image, ingredients}) => {
                     <li>{ingredient.text}</li>  
                 ))}
             </ul>
-            <a href={url} target="_blank">Try me!</a>
+            <a href={url} target="_blank">make this</a>
            
            
         </div>

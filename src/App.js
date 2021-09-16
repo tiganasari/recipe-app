@@ -46,7 +46,7 @@ const App = () => {
         <h3 className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </h3> 
       
      <form onSubmit={getSearch} className="search-form">
-       <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder="enter an ingredient"></input>
+       <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder="enter ingredients"></input>
        
        <button className="search-button" type="submit">  search
        </button>
