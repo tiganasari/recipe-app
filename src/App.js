@@ -8,7 +8,7 @@ const App = () => {
   const APP_ID = '0346e7d0';
   const APP_KEY = 'b087565973e9e485c22c11879174743c';
 
-  // const exampleReq = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
+  // const exampleReq = `https://api.edamam.com/search?q=chicken&app_id=0346e7d0&app_key=b087565973e9e485c22c11879174743c`;
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
@@ -57,7 +57,9 @@ const App = () => {
       <Recipe 
       key={recipe.recipe.label}
       title={recipe.recipe.label} 
-      calories={recipe.recipe.calories} 
+      calories={recipe.recipe.calories}
+      label={recipe.recipe.dietLabels}
+      url={recipe.recipe.url} 
       image={recipe.recipe.image}
       ingredients={recipe.recipe.ingredients}/>
 

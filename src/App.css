@@ -42,13 +42,43 @@ button {
 }
 
 .recipe {
-  border: 1px solid red;
+  border: 1px solid orange;
   margin: 20px;
   text-align: left;
+  max-width: 300px;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .recipes {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+.recipe-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+  font-size: 12px;
+}
+
+a {
+  margin: 0 auto;
+  border: 1px solid transparent;
+  text-align: center;
+  background-color: rgb(252, 244, 204);
+  display: block;
+  width: 115px;
+  height: 25px;
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
 }
