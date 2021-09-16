@@ -3,6 +3,7 @@ import React from 'react';
 const Recipe = ({title , url, image, ingredients}) => {
     return(
         <div className="recipe">
+            <img src={image}></img>
             <h1 class="recipe-title">{title}</h1>
             <ul>
                 {ingredients.map(ingredient =>(
@@ -11,7 +12,7 @@ const Recipe = ({title , url, image, ingredients}) => {
             </ul>
             <a href={url} target="_blank">Try me!</a>
            
-           <img src={image}></img>
+           
         </div>
     )
 }
