@@ -23,7 +23,7 @@
   padding: 30px 200px;
 }
 .search-bar {
-  width: 13.5%;
+  width: 13%;
   height: 20px;
   font-size: 17px;
   border-radius: 10px;
@@ -106,4 +106,29 @@ img {
 textarea:focus,
 input:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .para {
+    padding: 20px 100px;
+  }
+
+  .search-bar {
+    width: 23%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .heading {
+    font-size: 30px;
+  }
+
+  .para {
+    /* background-color: red; */
+    padding: 20px 40px;
+  }
+
+  .search-bar {
+    width: 27%;
+  }
 }
